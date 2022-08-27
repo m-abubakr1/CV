@@ -1,0 +1,149 @@
+body {
+  color: #40514e;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.profile {
+  width: 60%;
+  margin: 20px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted lightgray 6px;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 5.6rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  color: #66bfbf;
+}
+
+h3,
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 60px;
+  position: relative;
+}
+
+.contact-mesg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.top-cloud {
+  position: relative;
+  left: 250px;
+}
+
+.down-cloud {
+  position: absolute;
+}
+
+.dev-img {
+  border-radius: 100px;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto;
+}
+
+.skill-row img {
+  width: 25%;
+}
+
+.logo-pic {
+  float: left;
+  margin-right: 30px;
+}
+
+.dev-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e4f9f5;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
